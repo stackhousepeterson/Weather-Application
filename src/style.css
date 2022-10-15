@@ -1,16 +1,3 @@
-title {
-  text-align: center;
-  font-family: "Righteous", cursive;
-  font-size: xx-large;
-  position: relative;
-}
-
-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 body {
   background: radial-gradient(
     circle at 10% 20%,
@@ -54,14 +41,7 @@ button {
   border: none;
 }
 
-h1 {
-  position: relative;
-  width: 0;
-  margin: 0;
-  left: 50px;
-  padding: 0 auto;
-  text-align: center;
-}
+h1,
 h2,
 h3 {
   width: 50px 100px;
@@ -74,13 +54,7 @@ h2 {
   font-size: xx-large;
   position: relative;
 }
-h3 {
-  width: 0;
-  position: absolute;
-  color: #5f9781;
-  font-size: x-large;
-  right: 750;
-}
+
 img {
   position: relative;
 }
