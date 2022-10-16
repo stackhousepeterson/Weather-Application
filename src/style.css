@@ -21,13 +21,6 @@ form {
   padding: 0 auto;
   text-align: center;
 }
-.search-form {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  justify-content: center;
-}
 input {
   text-align: center;
 }
@@ -41,7 +34,14 @@ button {
   border: none;
 }
 
-h1,
+h1 {
+  position: relative;
+  width: 0;
+  margin: 0;
+  left: 50px;
+  padding: 0 auto;
+  text-align: center;
+}
 h2,
 h3 {
   width: 50px 100px;
