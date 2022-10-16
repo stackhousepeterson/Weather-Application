@@ -17,7 +17,8 @@ input {
   text-align: center;
 }
 
-form {
+form,
+button {
   font-size: large;
   display: flex;
   position: absolute;
