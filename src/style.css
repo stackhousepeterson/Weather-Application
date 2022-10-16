@@ -42,8 +42,10 @@ h1 {
   padding: 0 auto;
   text-align: center;
 }
+
 h2,
-h3 {
+h3,
+.search-form {
   width: 50px 100px;
   font-family: "Righteous", cursive;
   text-align: center;
