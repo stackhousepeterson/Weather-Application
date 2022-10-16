@@ -54,13 +54,7 @@ h2 {
   font-size: xx-large;
   position: relative;
 }
-h3 {
-  width: 0;
-  position: absolute;
-  color: #5f9781;
-  font-size: x-large;
-  right: 750;
-}
+
 img {
   position: relative;
 }
