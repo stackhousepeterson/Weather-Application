@@ -19,7 +19,7 @@ input {
 
 form {
   font-size: large;
-  display: inline-block;
+  display: flex;
   position: relative;
   width: 50px 100px;
   padding: 0 auto;
