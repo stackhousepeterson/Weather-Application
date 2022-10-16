@@ -24,6 +24,7 @@ form {
   width: 50px 100px;
   padding: 0 auto;
   text-align: center;
+  list-style: none;
 }
 
 li,
