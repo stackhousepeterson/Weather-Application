@@ -15,6 +15,7 @@ body {
 
 input {
   text-align: center;
+  position: relative;
 }
 
 form {
