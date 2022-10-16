@@ -30,4 +30,4 @@ function displayTmperature(response) {
   dateElement.innerHTML = formateDate(response.data.dt * 1000);
 }
 let apiKey = `7b0780809e5c473181bf677b7b7a1c69`;
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Las Vegas&appid=${apiKey}`;
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=New York&appid=${apiKey}&units=metric`;
