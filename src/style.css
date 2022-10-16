@@ -17,11 +17,10 @@ input {
   text-align: center;
 }
 
-form,
-button {
+form {
   font-size: large;
   display: flex;
-  position: absolute;
+  position: relative;
   width: 50px 100px;
   padding: 0 auto;
   text-align: center;
