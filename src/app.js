@@ -62,9 +62,9 @@ searchForm.addEventListener("submit", search);
 dateElement.innerHTML = formatDate(currentTime);
 
 function showTemperature(response) {
-  let h2 = document.querySelector("h2");
-  let temperature = Math.round(response.data.main.temp);
-  h2.innerHTML = `${response.data.name} Currently: ${temperature}`;
+  let temperatureElement = document.querySelector("temperature");
+  temperatureElement.innerHTML = Math.round(response.data.main.temp);
+  temperatureElement.innerHTML = `${response.data.name} Currently: ${temperature}`;
 }
 function searchLocation(position) {
   let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
