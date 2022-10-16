@@ -1,4 +1,4 @@
-function formate(timestamp) {
+function format(timestamp) {
   let date = new Date(timestamp);
   let hours = date.getHours();
   let minutes = date.getMinutes();
