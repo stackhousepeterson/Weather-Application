@@ -17,6 +17,15 @@ input {
   text-align: center;
 }
 
+form {
+  font-size: large;
+  display: flex;
+  position: absolute;
+  width: 50px 100px;
+  padding: 0 auto;
+  text-align: center;
+}
+
 li,
 .date {
   list-style: none;
@@ -37,8 +46,7 @@ h1 {
 }
 
 h2,
-h3,
-form {
+h3 {
   width: 50px 100px;
   font-family: "Righteous", cursive;
   text-align: center;
