@@ -51,16 +51,21 @@ function displayTemperature(response) {
     "alt", response.data.weather[0].description);
 }
 
-function search(event){
-  event.preventDefault();
-  let cityInputElement = document.querySelector("#city-input");
-}
-
+function search(city){
 let apiKey = `7b0780809e5c473181bf677b7b7a1c69`;
 let city = "New York";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-
 axios.get(apiUrl).then(displayTemperature);
+}
+
+function handleSubmit(event){
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#city-input");
+search(cityInputElement.value);
+}
+
+
+search("")
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", search);
