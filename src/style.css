@@ -30,6 +30,7 @@ form {
 li,
 .date {
   list-style: none;
+  text-transform: capitalize;
 }
 
 li:first-letter {
