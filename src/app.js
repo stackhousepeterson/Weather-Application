@@ -29,10 +29,10 @@ function displayTemperature(response) {
   humidityElement.innerHTML = response.data.main.humidity;
 
   let windElement = document.querySelector("#wind");
-  windElement.innerHTML = math.round(response.data.wind.speed);
+  windElement.innerHTML = Math.round(response.data.wind.speed);
 
   let dateElement = document.querySelector("#date");
-  dateElement.innerHTML = formateDate(response.data.dt * 1000);
+  dateElement.innerHTML = formatDate(response.data.dt * 1000);
 }
 let apiKey = `7b0780809e5c473181bf677b7b7a1c69`;
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=New York&appid=${apiKey}&units=metric`;
