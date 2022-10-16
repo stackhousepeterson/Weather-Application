@@ -13,14 +13,6 @@ body {
   border-top-right-radius: 0%;
 }
 
-form {
-  font-size: large;
-  display: flex;
-  position: absolute;
-  width: 50px 100px;
-  padding: 0 auto;
-  text-align: center;
-}
 input {
   text-align: center;
 }
