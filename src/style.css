@@ -16,7 +16,6 @@ body {
 input {
   text-align: center;
   position: relative;
-  list-style: none;
 }
 
 form {
@@ -25,6 +24,7 @@ form {
   position: relative;
   width: 50px 100px;
   padding: 0 auto;
+  margin: auto;
 }
 
 li,
