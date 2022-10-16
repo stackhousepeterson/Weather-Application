@@ -16,6 +16,7 @@ body {
 input {
   text-align: center;
   position: relative;
+  list-style: none;
 }
 
 form {
