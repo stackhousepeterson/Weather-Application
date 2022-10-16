@@ -28,6 +28,6 @@ function displayTmperature(response) {
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = math.round(response.data.wind.speed);
   dateElement.innerHTML = formateDate(response.data.dt * 1000);
-
-  let apiKey = `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}`;
 }
+let apiKey = `7b0780809e5c473181bf677b7b7a1c69`;
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
